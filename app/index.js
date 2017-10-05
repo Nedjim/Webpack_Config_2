@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import './index.css';
+import './style.css';
 
 const App = () => <h1>Hello React hey hey, let's go!</h1>;
 
