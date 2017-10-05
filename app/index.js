@@ -2,6 +2,12 @@ import React from 'react';
 import {render} from 'react-dom';
 import './style.css';
 
-const App = () => <h1>Hello React hey hey, let's go!</h1>;
+const App = () => (
+    <div>
+        <h1>Hello ! Webpack config 2</h1>
+
+        <img src='https://raw.githubusercontent.com/webpack-contrib/awesome-webpack/master/media/awesome_webpack_branding.png'/>
+    </div>
+);
 
 render(<App />, document.getElementById('app'));
