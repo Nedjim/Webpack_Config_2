@@ -8,9 +8,9 @@ $ yarn add react react-dom
 $ yarn add --dev  babel-core babel-loader babel-preset-env babel-preset-react css-loader style-loader webpack webpack-dev-server html-webpack-plugin
 
 ```
-- Fichier .gitignore
+
+## Execution
 ```
-node_modules
-dist
+$ yarn start
 ```
 
